@@ -1,0 +1,98 @@
+body {
+    background-image: url('../images/bkg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Neucha', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.text {
+    color: black;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-family: 'Neucha', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.board {
+    padding-top: 1rem;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 15rem;
+}
+
+.rules 
+{
+    background-color: white;
+    box-shadow: 1px 1px 6px black;
+}
+
+.card {
+    margin: 4px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.hidden {
+    background-image: url('../images/card-bkg.jpg');
+    background-size: contain;
+    border: 3px solid #049ede;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.hidden:hover {
+    box-shadow: 4px 4px 15px black;
+}
+
+.visible {
+    background-image: url('../images/cards.png');
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.find {
+    background: none;
+}
+
+.play {
+    font-family: 'Neucha', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    width: 6rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    padding-top: 0.3rem;
+    background-color: #049ede;
+    border: 1px solid #0389c2;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+    font-weight: bold;
+}
+.play:hover {
+    color: white;
+    background-color: #0389c2;
+}
+
+.bloc-time {
+    position: relative;
+    margin : 1rem auto;
+    width: 800px;
+}
+.time {
+    position: absolute;
+    left: 0px;
+    height: 50px;
+    background-color: #049ede;
+}
